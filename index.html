@@ -15,14 +15,13 @@
             font-size: 25px;
             color: white;
         }
-
-        img {
-            width: 40%;
-            margin:
-        }
-
-        div {
+        #container{
+            display:flex;
+            justify-content: space-between;
             border: 4px solid black;
+        }
+        img{
+            width:25%
         }
 
     </style>
@@ -30,21 +29,21 @@
 
 <body>
     <h1>Welcome to Home Page</h1>
-        <div id="container">
+    <div id="container">
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="self_portrait">Stick man</a></li>
+            <li><a href="Variables/index.html">Self Portrait with variables</a></li>
+            <li><a href="Interactive/index.html">Interactive Self Portrait</a></li>
+            <li><a href="meme/index.html">Meme/Logo</a></li>
+            <li><a href="meme_interactive/index.html">Meme interactive</a></li>
+            <li><a href="animation/index.html">Animation</a></li>
+            <li><a href="sensor/index.html">Sensor</a></li>
+        </ul>
         <img src="images/cllogo.jpg" align="left">
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="self_portrait">Self Portrait</a></li>
-                <li><a href="Variables/index.html">Self Portrait with variables</a></li>
-                <li><a href="Interactive/index.html">Interactive Self Portrait</a></li>
-                <li><a href="meme/index.html">Meme/Logo</a></li>
-                <li><a href="meme_interactive/index.html">Meme interactive</a></li>
-                <li><a href="animation/index.html">Animation</a></li>
-                <li><a href="Transformation/index.html"></a></li>
-            </ul>
-        </div> 
-        <script src="p5.min.js"></script>
-        <script src="sketch.js"></script>
+    </div>
+    <script src="p5.min.js"></script>
+    <script src="sketch.js"></script>
 </body>
 
 </html>
